@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#gameContainer {
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+}
+
+#gameBoard {
+  border: 3px solid;
+  margin-top: 5rem;
+}
+
+#gameScore {
+  font-size: 75px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#resetBtn {
+  font-family: inherit;
+  font-size: 25px;
+  width: 130px;
+  height: 42px;
+  border: 2px solid;
+  background-color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#resetBtn:hover {
+  background-color: #212121;
+  color: #fff;
+}
