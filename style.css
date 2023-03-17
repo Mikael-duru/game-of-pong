@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: forestgreen;
+}
+
 #gameContainer {
   font-family: 'Inconsolata', monospace;
   text-align: center;
@@ -36,4 +41,9 @@
 #resetBtn:hover {
   background-color: #212121;
   color: #fff;
+}
+
+#footerText {
+  text-align: center;
+  margin-top: 3rem;
 }
